@@ -100,14 +100,8 @@ Linux). If no keyring is available, they go into `data/accounts.enc`, encrypted 
 Say you have a 42,000 character chapter and 28,000 characters left on your key.
 
 1. Paste the text. The estimate says something like *"Enough for 14 of 21 parts"*.
-
-   ![Generation plan](docs/screenshots/plan-dialog.png)
-
 2. Click **Generate**. After part 14 the task switches to **Paused: quota used up**, you get a
    notification and the tray icon turns blue.
-
-   ![Paused on limit](docs/screenshots/queue-paused.png)
-
 3. Now either:
    - wait for the quota to reset. You can close the app; next time you open it, it asks
      whether to continue the unfinished task, or
@@ -153,8 +147,6 @@ auto-merge, deleting parts after merging, the chunk cache, auto-lock and update 
 **File → Export profile** packs keys, presets, history and settings into a zip. Keys inside the archive
 are encrypted with a password you choose. The `data/` folder is also backed up once a day into
 `data/backups/` (the last 7 are kept).
-
-![Preferences](docs/screenshots/preferences.png)
 
 ## Building an .exe
 
