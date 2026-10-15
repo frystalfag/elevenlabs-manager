@@ -1,0 +1,12 @@
+PyQt6>=6.5
+requests>=2.31
+pydantic>=2.5
+keyring>=24.0
+cryptography>=41.0
+loguru>=0.7
+pydub>=0.25.1
+pygame>=2.5
+# pydub needs audioop, which is gone in 3.13
+audioop-lts>=0.2.1; python_version >= "3.13"
+# build only
+pyinstaller>=6.0
